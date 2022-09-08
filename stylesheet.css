@@ -17,6 +17,43 @@
   vertical-align: middle;
   }
 
+.gameText{
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: brown;
+  }
+  
+.roundTextBold{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.winnerTextBold{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gameTextBold{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+.h1{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.buttons{
+  margin-top: 10px;
+}
+
 #resetButton {
   background-color: green;
   border: none;
@@ -24,7 +61,6 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 2px;
   float: left;
@@ -38,7 +74,6 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 2px;
 }
