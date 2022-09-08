@@ -1,3 +1,3 @@
-test change from nicks laptop.
+Test game created by Toby Moore.
 
-tobys update for nick.
+To play the game visit [here](https://tjhmoore.github.io/tictactoe/).
