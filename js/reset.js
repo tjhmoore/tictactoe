@@ -1,20 +1,35 @@
+ function increaseRound(){
+	round++;
+  resetWinnerText();
+ }
+
+ function resetWinnerText(){
+  document.getElementById("winnerText").innerHTML = "No winner this round.";
+  updateRoundText();
+ }
+
+ function updateRoundText(){
+	document.getElementById("roundNumber").innerHTML = round;
+  resetWinner();
+}
+
 function resetWinner(){
-	winner = null;
+	winner = 0;
   resetTurn();
 }
  
  function resetTurn(){
-	turn = 1;
-  resetBoard();
+	turn = "O";
+  resetBoardUI();
  }
  
-function resetBoard(){
-  for (let i = 1; i < 10; i++){
+function resetBoardUI(){
+  for (let i = 0; i < 9; i++){
   	document.getElementById(i).innerHTML = "";
   }
-  resetWinnerText();
+  resetBoard()
  }
  
- function resetWinnerText(){
-    document.getElementById("winnerText").innerHTML = "No winner yet";
+ function resetBoard(){
+	board = [null, null, null, null, null, null, null, null, null];
  }
