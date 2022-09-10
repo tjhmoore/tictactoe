@@ -20,9 +20,14 @@ function resetWinner(){
  
  function resetTurn(){
 	turn = "O";
-  resetBoardUI();
+  resetDraw();
  }
  
+ function resetDraw(){
+	draw = "O";
+  resetBoardUI();
+ }
+
 function resetBoardUI(){
   for (let i = 0; i < 9; i++){
   	document.getElementById(i).innerHTML = "";

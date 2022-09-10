@@ -17,6 +17,8 @@ function findWinner(winningCombinations, board) {
 		if (board[winningCombinations[combo][0]] != null) {
 		  setWinner()
 		}
+	  } else {
+		findDraw();
 	  }
 	}
   }

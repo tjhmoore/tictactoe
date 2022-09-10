@@ -1,7 +1,14 @@
 function resetGame(){
     xWinners = 0;
     oWinners = 0;
-    updateWinnerScore();
+    draws = 0;
+    resetScores();
+}
+
+function resetScores(){
+	document.getElementById("numberOfXWinners").innerHTML = xWinners;
+	document.getElementById("numberOfOWinners").innerHTML = oWinners;
+    document.getElementById("numberOfXDraws").innerHTML = draws;
     resetWinnerTextGame();
 }
 
