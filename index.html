@@ -8,25 +8,26 @@
 </head>
 
 <body>
+    <div class = "container">
     <div><h1>Tic Tac Toe</h1></div>
     <div id="round" class="roundTextBold">Round <span id="roundNumber" class="gameText">1</span></div>
-    <div class = "table">
-        <div class = "row">
-        <div id="0" onclick="setDivID(id)" class="grid"></div>
-        <div id="1" onclick="setDivID(id)" class="grid"></div>
-        <div id="2" onclick="setDivID(id)" class="grid"></div>
+        <div class = "table">
+            <div class = "row">
+                <div id="0" onclick="setDivID(id)" class="grid"></div>
+                <div id="1" onclick="setDivID(id)" class="grid"></div>
+                <div id="2" onclick="setDivID(id)" class="grid"></div>
+            </div>
+            <div class = "row">
+                <div id="3" onclick="setDivID(id)" class="grid"></div>
+                <div id="4" onclick="setDivID(id)" class="grid"></div>
+                <div id="5" onclick="setDivID(id)" class="grid"></div>
+             </div>
+            <div class = "row">
+                <div id="6" onclick="setDivID(id)" class="grid"></div>
+                <div id="7" onclick="setDivID(id)" class="grid"></div>
+                <div id="8" onclick="setDivID(id)" class="grid"></div>
+            </div>
         </div>
-        <div class = "row">
-        <div id="3" onclick="setDivID(id)" class="grid"></div>
-        <div id="4" onclick="setDivID(id)" class="grid"></div>
-        <div id="5" onclick="setDivID(id)" class="grid"></div>
-        </div>
-        <div class = "row">
-        <div id="6" onclick="setDivID(id)" class="grid"></div>
-        <div id="7" onclick="setDivID(id)" class="grid"></div>
-        <div id="8" onclick="setDivID(id)" class="grid"></div>
-        </div>
-    </div>
     <div id="winnerText" class="winnerTextBold">No winner yet.</div>
     <div id="OwinnerText" class="gameTextBold">Draws = <span id="numberOfXDraws" class="gameText">0</span></div>
     <div id="OwinnerText" class="gameTextBold">X Wins = <span id="numberOfXWinners" class="gameText">0</span></div>
@@ -38,5 +39,6 @@
         <button id = "resetGameButton" onclick="resetGame()">
             Reset Game
         </button>
+    </div>
     </div>
 </body>

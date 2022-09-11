@@ -1,3 +1,3 @@
 Test game created by Toby Moore.
 
-To play the game visit [here](https://tjhmoore.github.io/tictactoe/).
+To play the game visit https://tjhmoore.github.io/tictactoe/
