@@ -18,7 +18,7 @@ function findWinner(winningCombinations, board) {
 		  setWinner()
 		}
 	  } else {
-		total++
+		total++;
 		sumDraws();
 	  }
 	}

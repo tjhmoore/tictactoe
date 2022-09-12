@@ -9,9 +9,10 @@
 
 <body>
     <div class = "container">
-    <div><h1>Tic Tac Toe</h1></div>
+    <div id="header"><h1>Tic Tac Toe</h1></div>
     <div id="round" class="roundTextBold">Round <span id="roundNumber" class="gameText">1</span></div>
-        <div class = "table">
+    <div id="winnerText" class="winnerTextBold">No winner yet.</div>
+    <div class = "table">
             <div class = "row">
                 <div id="0" onclick="setDivID(id)" class="grid"></div>
                 <div id="1" onclick="setDivID(id)" class="grid"></div>
@@ -28,7 +29,6 @@
                 <div id="8" onclick="setDivID(id)" class="grid"></div>
             </div>
         </div>
-    <div id="winnerText" class="winnerTextBold">No winner yet.</div>
     <div id="OwinnerText" class="gameTextBold">Draws = <span id="numberOfXDraws" class="gameText">0</span></div>
     <div id="OwinnerText" class="gameTextBold">X Wins = <span id="numberOfXWinners" class="gameText">0</span></div>
     <div id="XwinnerText" class="gameTextBold">O Wins = <span id="numberOfOWinners" class="gameText">0</span></div>

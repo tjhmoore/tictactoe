@@ -1,25 +1,28 @@
 .container {
   margin: auto;
-  width: 60%;
+  width: 300px;
 }
 
 .table {
   display: table;
   border-color: black;
+  width: 300px;
   }
   
 .row {
   display: table-row;
   border-color: black;
+  width: 100%;
   }
   
 .grid {
   display: table-cell;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border:1px solid black;
   text-align: center;
   vertical-align: middle;
+  font-size: xx-large;
   }
 
 .gameText{
@@ -28,35 +31,41 @@
     color: brown;
   }
   
-.roundTextBold{
+.roundTextBold {
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: blue;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-.winnerTextBold{
+.winnerTextBold {
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: blue;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-.gameTextBold{
+.gameTextBold {
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: blue;
 }
 
-.h1{
+.h1 {
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 32px;
 }
 
-.buttons{
+.buttons {
   margin-top: 10px;
+}
+
+#header {
+  text-align: center;
 }
 
 #resetButton {
